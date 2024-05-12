@@ -6,6 +6,7 @@ L'API permet la gestion des sessions utilisateur, notamment l'authentification v
 
 
 ## Arborescence des fichiers
+```
 API/
 │
 ├── "node_modules/" (Dossier de dépendances, ces dépendances sont installées avec la commande `npm install` après le téléchargement du code)
@@ -27,7 +28,7 @@ API/
 ├── package-lock.json
 │
 └── package.json
-
+```
 
 ## Fonctionnalités principales
 - **Authentification Google Sign-In**: Permet aux utilisateurs de se connecter à l'application en utilisant leur compte Google.
