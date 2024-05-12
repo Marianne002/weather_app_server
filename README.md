@@ -48,16 +48,19 @@ API/
 - [API OpenWeather](https://openweathermap.org/): Utilisée pour récupérer les conditions météorologiques en temps réel en fonction de la position géographique de l'utilisateur.
 
 
-## Comment Exécuter le serveur
+## Configuration
+L'application utilise les environnements de développement pour gérer les variables spécifiques à chaque environnement, telles que les clés API et les URL de backend.
+
+### Développement
+1. Clônez le dépôt depuis Github.
+2. Installation des dépendances: Exécutez la commande `npm install`
+3. Démarrez le serveur: Exécutez `npm start`
+
 ### Éléments nécessaires pour accéder à la solution:
 - Un appareil compatible avec une connexion Internet.
 - Un navigateur web moderne tel que Google Chrome, Mozilla Firefox, ou Safari.
 - Un compte Google valide pour l'authentification via Google sign-in.
 
-### Configuration
-1. Clônez le dépôt depuis Github.
-2. Installation des dépendances: Exécutez `npm install` pour installer toutes les dépendances nécessaires répertoriées dans package.json.
-3. Démarrez le serveur: Exécutez npm start pour démarrer le serveur Node.js.
 ---
 
 *Note : Ce code représente la partie serveur de l'application. Assurez-vous de lancer l'API côté serveur avant d'utiliser l'application côté client.*
